@@ -1,0 +1,306 @@
+ [
+    {
+      "id": 1,
+      "title": "Frontend Developer",
+      "company": {
+        "name": "TechNova Inc.",
+        "initial": "T",
+        "logo": null
+      },
+      "location": {
+        "type": "Remote",
+        "city": "Kabul",
+        "country": "Afghanistan"
+      },
+      "jobType": "Full Time",
+      "salary": {
+        "min": 2500,
+        "max": 3500,
+        "currency": "USD",
+        "period": "month"
+      },
+      "postedAt": "2 days ago",
+      "description": "We are looking for a talented Frontend Developer to join our engineering team. You will be responsible for building responsive and scalable web applications and working closely with designers and backend developers.",
+      "requirements": [
+        "2+ years of frontend development experience",
+        "Strong knowledge of React.js",
+        "Experience with REST APIs",
+        "Good understanding of responsive design"
+      ],
+      "skills": [
+        "React",
+        "JavaScript",
+        "TypeScript",
+        "Tailwind CSS",
+        "Git"
+      ],
+      "workMode": "Remote",
+      "experienceLevel": "Mid Level"
+    },
+    {
+      "id": 2,
+      "title": "Backend Developer",
+      "company": {
+        "name": "Acme Technologies",
+        "initial": "A",
+        "logo": null
+      },
+      "location": {
+        "type": "Remote",
+        "city": null,
+        "country": "Worldwide"
+      },
+      "jobType": "Full Time",
+      "salary": {
+        "min": 3000,
+        "max": 4500,
+        "currency": "USD",
+        "period": "month"
+      },
+      "postedAt": "4 days ago",
+      "description": "Join our backend engineering team and help us build secure, reliable and scalable APIs for our growing platform.",
+      "requirements": [
+        "2+ years backend development experience",
+        "Strong Python knowledge",
+        "Experience with Django or FastAPI",
+        "PostgreSQL database experience"
+      ],
+      "skills": [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "REST API",
+        "Docker"
+      ],
+      "workMode": "Remote",
+      "experienceLevel": "Mid Level"
+    },
+    {
+      "id": 3,
+      "title": "UI/UX Designer",
+      "company": {
+        "name": "Creative Studio",
+        "initial": "C",
+        "logo": null
+      },
+      "location": {
+        "type": "Hybrid",
+        "city": "Kabul",
+        "country": "Afghanistan"
+      },
+      "jobType": "Part Time",
+      "salary": {
+        "min": 1500,
+        "max": 2000,
+        "currency": "USD",
+        "period": "month"
+      },
+      "postedAt": "1 week ago",
+      "description": "We are searching for a creative UI/UX Designer who can transform complex problems into simple and beautiful user experiences.",
+      "requirements": [
+        "Strong portfolio",
+        "Figma experience",
+        "Understanding of UX principles",
+        "Good communication skills"
+      ],
+      "skills": [
+        "Figma",
+        "UI Design",
+        "UX",
+        "Prototyping"
+      ],
+      "workMode": "Hybrid",
+      "experienceLevel": "Junior"
+    },
+    {
+      "id": 4,
+      "title": "Full Stack Developer",
+      "company": {
+        "name": "CodeWave Solutions",
+        "initial": "C",
+        "logo": null
+      },
+      "location": {
+        "type": "Remote",
+        "city": null,
+        "country": "Worldwide"
+      },
+      "jobType": "Full Time",
+      "salary": {
+        "min": 3500,
+        "max": 5000,
+        "currency": "USD",
+        "period": "month"
+      },
+      "postedAt": "3 days ago",
+      "description": "We are looking for a Full Stack Developer to build modern web applications using React on the frontend and Django on the backend.",
+      "requirements": [
+        "2+ years of full stack development experience",
+        "Strong React and JavaScript knowledge",
+        "Experience with Django REST Framework",
+        "Good understanding of relational databases"
+      ],
+      "skills": [
+        "React",
+        "Django",
+        "DRF",
+        "PostgreSQL",
+        "JavaScript",
+        "Git"
+      ],
+      "workMode": "Remote",
+      "experienceLevel": "Mid Level"
+    },
+    {
+      "id": 5,
+      "title": "Junior React Developer",
+      "company": {
+        "name": "PixelCraft",
+        "initial": "P",
+        "logo": null
+      },
+      "location": {
+        "type": "On-site",
+        "city": "Kabul",
+        "country": "Afghanistan"
+      },
+      "jobType": "Full Time",
+      "salary": {
+        "min": 600,
+        "max": 1000,
+        "currency": "USD",
+        "period": "month"
+      },
+      "postedAt": "5 days ago",
+      "description": "PixelCraft is looking for a Junior React Developer who is passionate about learning modern frontend technologies and building beautiful web interfaces.",
+      "requirements": [
+        "Basic knowledge of React",
+        "Good understanding of JavaScript",
+        "Knowledge of HTML and CSS",
+        "Ability to work with REST APIs"
+      ],
+      "skills": [
+        "React",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Git"
+      ],
+      "workMode": "On-site",
+      "experienceLevel": "Junior"
+    },
+    {
+      "id": 6,
+      "title": "Python Developer",
+      "company": {
+        "name": "DataCore",
+        "initial": "D",
+        "logo": null
+      },
+      "location": {
+        "type": "Remote",
+        "city": null,
+        "country": "Worldwide"
+      },
+      "jobType": "Full Time",
+      "salary": {
+        "min": 2800,
+        "max": 4200,
+        "currency": "USD",
+        "period": "month"
+      },
+      "postedAt": "6 days ago",
+      "description": "DataCore is looking for a Python Developer to develop APIs, backend services and data processing systems for our growing platform.",
+      "requirements": [
+        "2+ years of Python development experience",
+        "Experience with Django",
+        "Knowledge of REST API development",
+        "Experience with PostgreSQL"
+      ],
+      "skills": [
+        "Python",
+        "Django",
+        "DRF",
+        "PostgreSQL",
+        "REST API"
+      ],
+      "workMode": "Remote",
+      "experienceLevel": "Mid Level"
+    },
+    {
+      "id": 7,
+      "title": "Frontend Engineer",
+      "company": {
+        "name": "CloudBase",
+        "initial": "C",
+        "logo": null
+      },
+      "location": {
+        "type": "Remote",
+        "city": null,
+        "country": "Worldwide"
+      },
+      "jobType": "Full Time",
+      "salary": {
+        "min": 4000,
+        "max": 5500,
+        "currency": "USD",
+        "period": "month"
+      },
+      "postedAt": "1 week ago",
+      "description": "Work with our product team to build high-performance web applications and reusable frontend components.",
+      "requirements": [
+        "3+ years of frontend development experience",
+        "Advanced React knowledge",
+        "Experience with TypeScript",
+        "Experience with modern frontend tooling"
+      ],
+      "skills": [
+        "React",
+        "TypeScript",
+        "Next.js",
+        "Tailwind CSS",
+        "Git"
+      ],
+      "workMode": "Remote",
+      "experienceLevel": "Senior"
+    },
+    {
+      "id": 8,
+      "title": "DevOps Engineer",
+      "company": {
+        "name": "InfraTech",
+        "initial": "I",
+        "logo": null
+      },
+      "location": {
+        "type": "Hybrid",
+        "city": "Dubai",
+        "country": "UAE"
+      },
+      "jobType": "Full Time",
+      "salary": {
+        "min": 4500,
+        "max": 6500,
+        "currency": "USD",
+        "period": "month"
+      },
+      "postedAt": "2 weeks ago",
+      "description": "We are looking for a DevOps Engineer to improve deployment pipelines, infrastructure reliability and cloud operations.",
+      "requirements": [
+        "2+ years of DevOps experience",
+        "Experience with Docker",
+        "Knowledge of CI/CD pipelines",
+        "Experience with cloud platforms"
+      ],
+      "skills": [
+        "Docker",
+        "Linux",
+        "AWS",
+        "CI/CD",
+        "Kubernetes"
+      ],
+      "workMode": "Hybrid",
+      "experienceLevel": "Mid Level"
+    }
+  ]
