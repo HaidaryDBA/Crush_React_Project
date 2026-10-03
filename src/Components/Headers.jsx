@@ -37,7 +37,7 @@ const Headers = () => {
 
       {/* Search */}
 
-      <div className="mx-auto mt-10 flex max-w-4xl flex-col gap-3 rounded-2xl border border-slate-800 bg-slate-900/80 p-3 shadow-2xl md:flex-row">
+      <div className="mx-auto mt-10 flex max-w-4xl flex-col gap-3 rounded-2xl border border-slate-800 bg-slate-900/80 p-3 shadow-2xl md:flex-row text-white">
 
         <div className="flex flex-1 items-center rounded-xl bg-slate-950 px-4">
 
