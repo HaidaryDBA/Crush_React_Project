@@ -1,4 +1,7 @@
+import { NavLink,Link} from 'react-router-dom'
+import { FaHome, } from 'react-icons/fa'
 const Navbar = () => {
+const navLinks = ({isActive}) => isActive ? "text-black-500/92 font-medium bg-white p-2 rounded-xl hover:bg-gray-200" : "text-slate-400 font-medium transition hover:text-white"
   return (
       <nav className="sticky top-0 z-50 border-b border-slate-800 bg-slate-950/90 backdrop-blur-xl">
 
@@ -6,7 +9,7 @@ const Navbar = () => {
 
       {/* Logo */}
 
-      <a href="#" className="flex items-center gap-3">
+      <Link to="#" className="flex items-center gap-3">
 
         <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-violet-600 font-bold shadow-lg shadow-violet-600/20">
           J
@@ -22,33 +25,36 @@ const Navbar = () => {
           </p>
         </div>
 
-      </a>
+      </Link>
 
 
       {/* Navigation */}
 
       <div className="hidden items-center gap-8 md:flex">
 
-        <a
-          href="#"
-          className="text-sm font-medium text-white"
+        <NavLink
+          to="/"
+          className={navLinks}
         >
-          Jobs
-        </a>
+          <i className='inline-block '><FaHome color='red' className='flex size-5 ' /></i>
+          
+          Home
+        </NavLink>
 
-        <a
-          href="#"
-          className="text-sm font-medium text-slate-400 transition hover:text-white"
+        <NavLink
+          to="/add-job"
+          className={navLinks}
         >
-          Companies
-        </a>
+          
+          Add Job
+        </NavLink>
 
-        <a
-          href="#"
-          className="text-sm font-medium text-slate-400 transition hover:text-white"
+        <NavLink
+          to="/saved-jobs"
+          className={navLinks}
         >
           Saved Jobs
-        </a>
+        </NavLink>
 
       </div>
 

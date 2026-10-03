@@ -1,22 +1,26 @@
-
+import { BrowserRouter, Routes, Route} from 'react-router-dom'
 import './App.css'
 import Navbar from './Components/Navbar.jsx'
-import Headers from './Components/Headers.jsx'
-import Main from './Components/Main.jsx'
-import Footer from './Components/Footer.jsx'
+import AddJob from './pages/AddJob.jsx';
+import HomePage from './pages/HomePage.jsx';
+import NotFoundPage from './pages/NotFoundPage.jsx';
 function App() {
 
   return (
-  <>
+  <BrowserRouter>
     <Navbar />
-    <Headers />
-    <Main />
-    <Footer />
+
+  <Routes>
+    <Route path='/' element={<HomePage />} />
+    <Route path='/add-job' element={<AddJob />} />
+    <Route path='*' element={<NotFoundPage />} />
+  </Routes>
+    
 
 
  
 
-  </>
+  </BrowserRouter>
   )
   }
   export default App

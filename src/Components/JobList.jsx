@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { TiLocation } from "react-icons/ti";
 const JobList = ({job}) => {
 const [showDescription, setShowDescription] = useState(false);
 
@@ -171,7 +172,7 @@ const [showDescription, setShowDescription] = useState(false);
           <div className="flex items-center gap-2 text-xs text-slate-500">
 
             <span>
-              📍
+              <TiLocation />
             </span>
 
             {job.location.city} {job.location.country}
